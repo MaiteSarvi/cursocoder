@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: mono;
+    src: url("../assets/ttf2/DROIDSANSMONO.TTF");
+    font-style: medium;
+}
+@font-face {
+    font-family: mango;
+    src: url("../assets/ttf2/BLACK-MANGO-BOLD.TTF");
+    font-style: bold;
+}
+@font-face {
+    font-family: mango;
+    src: url("../assets/ttf2/BLACK-MANGO-LIGHT.TTF");
+    font-style: light;
+}
+@font-face {
+    font-family: mango;
+    src: url("../assets/ttf2/BLACK-MANGO-MEDIUM.TTF");
+    font-style: medium;
+}
+
+
+
+
+/* menu */
+.logomenu {
+    background: rgb(247, 248, 228);
+    padding: 0px 65px 0px 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logomenu__menu li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+    font-family: "mono", medium;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.logomenu__menu li a {
+   color: black;
+   text-decoration: none;
+}
+
+
+
+.logomenu__menu {
+    display: inline-block;
+    margin: 42px 10px 0 10px; 
+}
+
+select {
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* main index*/
+
+.imagenprincipal {
+    background-image: url("../assets/imagenes/imagen\ principal.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+
+}
+
+.imagenprincipal__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+   
+}
+
+.imagenprincipal__text h2 {
+    font-family: "mango", bold;
+    font-size: 60px;
+  
+}
+.imagenprincipal__text h3 {
+    font-family: "mango", bold;
+    font-size: 30px; 
+}
+
+.imagenprincipal__text h4 {
+    font-family: "mono", medium;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration-line: overline;
+}
+
+.imagenprincipal__text-boton {
+    display: block;
+    width: 90px;
+    margin-top: 20px;
+    font-family: "mono", medium;
+    font-size: 13px;
+    background-color: #ce7e57;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 10px; 
+    color:black    
+}
+
+
+
+
+
+/* main tienda */
+
+.desplegable {
+    font-family: "Brave", light;
+    font-size: 20px;
+    color: white;
+    background-color: #ce7e57;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.adquirir {
+    font-family: "Brave", light;
+    font-size: 15px;
+    background-color: #ce7e57;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.imagenes {
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+.formulario {
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-family: "Breve", light;
+  
+  }
+  .formulario__tarjeta {
+      margin-top: 10px;
+  }
+  .formulario__condiciones {
+      margin-top: 10px;
+  }
+  .titulo {
+      font-family: "Breve", medium;
+      font-size: 20px;
+      color: #ce7e57; 
+      margin-bottom: 10px;
+      margin-left: 70px;
+      margin-top: 20px;
+  } 
+  .pedido {
+      font-family: "Breve", light;
+      font-size: 12px;
+      color: black;
+      margin-bottom: 10px;
+      margin-left: 70px;
+  }
+  
+/* main contacto */
+.contacto {
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: space-around;
+    grid-gap: 50px;
+    padding: 40px 0px;
+}
+.contacto h2 {
+    font-family: "mango", bold;
+    font-size: 18px;
+    color: #ce7e57;
+    margin-bottom: 10px;
+    }
+
+.contacto h3 {
+    font-family: "mango", light;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 25px;
+}
+.contacto h4 {
+    font-family: "mono", bold;
+    font-size: 14px;
+    color: black;
+    letter-spacing: -1;
+}
+  
+  
+  
+  
+  /* main carrito */
+.carrito{
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.titulocarrito {
+    color: #ce7e57;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-family: "Breve", medium;
+}
+
+ .tabla {
+    margin-left: 70px;
+ }
+
+ .tabla tbody {
+    font-size: 15px;
+    font-family: "Breve", light
+ }
+
+ .tabla__thead {
+    font-size: 20px;
+    font-family: "Breve", medium;
+}
+
+
+
+
+/* main form - pago */
+.main__form {
+    background-image: url("../assets/imagenes/imagen-form-pago.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    
+}
+
+.formulario {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    background-color:rgba(245, 245, 220, 0.432);
+}
+
+  .formulario h4 {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: "mango", light;
+    color: black;
+  }
+
+  .formulario__condiciones {
+    margin-bottom: 15px;
+    font-family: "mono", bold;
+    font-size: 10px;
+      
+  }
+  .titulo {
+      font-family: "mango", bold;
+      font-size: 20px;
+      color: #ce7e57; 
+      
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+  } 
+  .pedido {
+      font-family: "mono", bold;
+      font-size: 10px;
+      color: black;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+
+  input {
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .formulario__condiciones-boton1 {
+    display: inline;
+    width: 165px;
+    margin-top: 20px;
+    font-family: "mono", medium;
+    font-size: 13px;
+    background-color: #ce7e57;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 7px;
+    color:black
+  }
+
+  .formulario__condiciones-boton2 {
+    display: inline;
+    width: 90px;
+    margin-top: 20px;
+    font-family: "mono", medium;
+    font-size: 13px;
+    background-color: #ce7e57;
+    text-decoration: none;
+    border-radius: 10px; 
+    padding: 7px;
+    color:black
+  }
+
+
+
+
+/* main contacto */
+.contacto {
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: space-around;
+    grid-gap: 50px;
+    padding: 40px 0px;
+}
+.contacto h2 {
+    font-family: "mango", bold;
+    font-size: 18px;
+    color: #ce7e57;
+    margin-bottom: 10px;
+    }
+
+.contacto h3 {
+    font-family: "mango", light;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 25px;
+}
+.contacto h4 {
+    font-family: "mono", bold;
+    font-size: 14px;
+    color: black;
+    letter-spacing: -1;
+}
+
+  
+
+
+
+  /* main contacto */
+.contacto {
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: space-around;
+    grid-gap: 50px;
+    padding: 40px 0px;
+}
+.contacto h2 {
+    font-family: "mango", bold;
+    font-size: 18px;
+    color: #ce7e57;
+    margin-bottom: 10px;
+    }
+
+.contacto h3 {
+    font-family: "mango", light;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 25px;
+}
+.contacto h4 {
+    font-family: "mono", bold;
+    font-size: 14px;
+    color: black;
+    letter-spacing: -1;
+}
+
+ 
+
+
+
+/* footer */
+ .footer {
+    width: 100%;
+    background-color: rgb(247, 248, 228);
+    display: grid;
+    justify-content:space-around;
+}
+ 
+.footer__grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 40px 0px;
+    
+}
+
+.footer__grupo1-box  h1  { 
+    color:#ce7e57;
+    font-size: 15px;
+    font-family: "mango", bold;
+    margin-bottom: 10px;
+    
+}
+.footer__grupo1-box  h3 {
+    color: rgb(32, 32, 32);
+    font-size: 12px;
+    font-family: "mono", bold;
+    letter-spacing: 0px;
+    margin-bottom: 18px
+}
+
+@media screen and (max-width: 750px) {
+    .contacto {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 690px) {
+   .logomenu {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    
+        }
+    .logomenu__menu li {
+    margin-left: auto;
+        }
+    
+    .footer__grupo1 {
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        justify-content: start;
+        margin-left: auto;
+    }
+}
+   
+
+
+
+
+
+
+
+
+ 
+ 
