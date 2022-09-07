@@ -202,27 +202,55 @@ select {
 .carrito{
     margin-left: 130px;
     margin-top: 20px;
+
 }
 .titulocarrito {
     color: #ce7e57;
-    margin-left: 70px;
     margin-bottom: 20px;
-    font-family: "Breve", medium;
+    font-family: "mango", bold;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
 }
 
  .tabla {
-    margin-left: 70px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
  }
 
  .tabla tbody {
-    font-size: 15px;
-    font-family: "Breve", light
+    font-size: 12px;
+    font-family: "mono", bold;
  }
 
  .tabla__thead {
-    font-size: 20px;
-    font-family: "Breve", medium;
+    font-size: 15px;
+    font-family: "mango", light;
 }
+.formulario__cliente-boton1 {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-family: "mono", medium;
+    font-size: 13px;
+    transition: .5, .5;
+    background-color: #ce7e57;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 7px;
+    color:black
+    
+}
+    
+  .formulario__cliente-boton1:hover {
+    transform:scale(1.1);
+    background-color: beige;
+  }
 
 
 
