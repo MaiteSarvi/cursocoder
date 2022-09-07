@@ -139,26 +139,45 @@ select {
 /* main tienda */
 
 .desplegable {
-    font-family: "Brave", light;
-    font-size: 20px;
+    font-family: "mono", bold;
+    font-size: 15px;
     color: white;
     background-color: #ce7e57;
     margin-left: 70px;
     margin-top: 20px;
+    padding: 6px;
 }
 
 .adquirir {
-    font-family: "Brave", light;
-    font-size: 15px;
+    display: block;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    font-family: "mono", medium;
+    font-size: 13px;
+    transition: .5, .5;
     background-color: #ce7e57;
-    margin-left: 70px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 7px;
+    color:black
+    
 }
+    
+.adquirir:hover {
+    transform:scale(1.1);
+    background-color: beige;
+  }
 
-.imagenes {
+.imagenes img {
     margin-left: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    transition: .5, .5;
+}
+.imagenes img:hover {   
+    transform:scale(1.3);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
 }
 
 
