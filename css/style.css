@@ -170,10 +170,13 @@ select {
     background-color: beige;
   }
 
+    
 .imagenes img {
     margin-left: 70px;
     margin-bottom: 100px;
-    transition: .5, .5;
+    transition: 0.3s;
+    
+   
 }
 .imagenes img:hover {   
     transform:scale(1.3);
