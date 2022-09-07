@@ -164,39 +164,6 @@ select {
 
 
 
-
-
-
-
-
-.formulario {
-    margin-left: 70px;
-    margin-bottom: 20px;
-    font-family: "Breve", light;
-  
-  }
-  .formulario__tarjeta {
-      margin-top: 10px;
-  }
-  .formulario__condiciones {
-      margin-top: 10px;
-  }
-  .titulo {
-      font-family: "Breve", medium;
-      font-size: 20px;
-      color: #ce7e57; 
-      margin-bottom: 10px;
-      margin-left: 70px;
-      margin-top: 20px;
-  } 
-  .pedido {
-      font-family: "Breve", light;
-      font-size: 12px;
-      color: black;
-      margin-bottom: 10px;
-      margin-left: 70px;
-  }
-  
 /* main contacto */
 .contacto {
     width: 100%;
@@ -275,7 +242,6 @@ select {
     justify-content: center;
     align-items: center;
     text-align: center; 
-    background-color:rgba(245, 245, 220, 0.432);
 }
 
   .formulario h4 {
@@ -285,21 +251,16 @@ select {
     color: black;
   }
 
-  .formulario__condiciones {
-    margin-bottom: 15px;
-    font-family: "mono", bold;
-    font-size: 10px;
       
-  }
   .titulo {
       font-family: "mango", bold;
       font-size: 20px;
-      color: #ce7e57; 
-      
+      color: #ce7e57;
       display: flex;
       justify-content: center;
       justify-items: center;
       text-align: center;
+      margin-top: 100px;
   } 
   .pedido {
       font-family: "mono", bold;
@@ -312,37 +273,38 @@ select {
   }
 
   input {
-    border-radius: 10px;
+    border-radius: 5px;
     width: 250px;
     height: 25px;
     margin-bottom: 20px;
+    border: none;
+    background-color: beige;
+    padding: 3px;
 }
 
+ input:hover {
+    border: 2px solid #ce7e57;
+ }
+
   .formulario__condiciones-boton1 {
-    display: inline;
-    width: 165px;
+    display: block;
+    width: 100%;
     margin-top: 20px;
     font-family: "mono", medium;
     font-size: 13px;
+    transition: .5, .5;
     background-color: #ce7e57;
     text-decoration: none;
     border-radius: 10px;
     padding: 7px;
-    color:black
+    color:black }
+    
+  .formulario__condiciones-boton1:hover {
+    transform:scale(1.1);
+    background-color: beige;
   }
 
-  .formulario__condiciones-boton2 {
-    display: inline;
-    width: 90px;
-    margin-top: 20px;
-    font-family: "mono", medium;
-    font-size: 13px;
-    background-color: #ce7e57;
-    text-decoration: none;
-    border-radius: 10px; 
-    padding: 7px;
-    color:black
-  }
+
 
 
 
