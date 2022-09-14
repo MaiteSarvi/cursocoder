@@ -284,22 +284,24 @@ select {
 }
 
  .tabla {
-
     display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
- }
+    grid-template-columns: repeat(3, 1fr); 
+    margin: auto;
+    }
 
- .tabla tbody {
-    font-size: 12px;
-    font-family: "mono", bold;
+ .tabla ul {
+    display: flex;
+    flex-direction: column;
  }
-
- .tabla__thead {
+ 
+ .tabla li {
+    list-style-type: none;
+    font-family: "mono", medium;
     font-size: 15px;
-    font-family: "mango", light;
-}
+    margin-bottom: 10px;
+    margin-left: 70px;
+ }
+
 .formulario__cliente-boton1 {
     display: block;
     width: 100%;
@@ -535,14 +537,21 @@ select {
         margin-left: auto;
     }
 }
+
+@media screen and (max-width: 1080px) {
+    .imagenes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+
+}
+@media screen and (max-width: 720px) {
+    .imagenes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
    
 
-
-
-
-
-
-
-
- 
- 
