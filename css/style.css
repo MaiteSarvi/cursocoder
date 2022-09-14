@@ -444,36 +444,52 @@ select {
 
 
   /* main contacto */
-.contacto {
-    width: 100%;
-    max-width: 1200px;
-    margin:auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    justify-content: space-around;
-    grid-gap: 50px;
-    padding: 40px 0px;
-}
-.contacto h2 {
+  .suscribite h3 {
     font-family: "mango", bold;
     font-size: 18px;
     color: #ce7e57;
     margin-bottom: 10px;
-    }
-
-.contacto h3 {
-    font-family: "mango", light;
-    font-size: 14px;
-    color: black;
-    margin-bottom: 25px;
 }
-.contacto h4 {
+
+.suscribite p {
     font-family: "mono", bold;
     font-size: 14px;
     color: black;
     letter-spacing: -1;
 }
+.suscribite2 a {
+    background-color: #ce7e57;
+    transition: .5s, .5s;
+}
+.suscribite2 a:hover {
+    background-color: beige;
+    transform:scale(1.1);
+}
 
+.suscribite1 input {
+    background-color: beige;
+}
+.suscribite1 a {
+    background-color: #ce7e57;
+    transition: .5s,.5s;
+}
+.suscribite1 a:hover {
+    background-color: beige;
+    transform:scale(1.1);
+}
+
+.contacto2 h2 {
+    font-family: "mango", bold;
+    font-size: 18px;
+    color: #ce7e57;
+    margin-bottom: 10px;
+}
+.contacto2 h4 {
+    font-family: "mono", bold;
+    font-size: 14px;
+    color: black;
+    letter-spacing: -1;
+}
  
 
 
